@@ -1,0 +1,13 @@
+2026-04-26 20:55:35.027 INFO logger - setup_logger: Log created at .\log\Log_2026-04-26_20-55.txt.
+2026-04-26 20:55:35.027 INFO main - <module>: Solicitando o nome do produto para a busca ao usuário.
+2026-04-26 20:55:37.711 INFO main - <module>: Produto informado: iphone
+2026-04-26 20:55:37.711 INFO main - <module>: Solicitando o tipo de execução ao usuário.
+2026-04-26 20:55:47.845 INFO main - <module>: Tipo de execução selecionada: 2
+2026-04-26 20:55:47.845 INFO main - <module>: Iniciando robô para buscar 'iphone'...
+2026-04-26 20:55:50.123 INFO navegation - buscar_produtos_amazon: Acessando o site da Amazon pela URL: https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+2026-04-26 20:55:51.541 INFO navegation - buscar_produtos_amazon: Aguarda o carregamento do campo de e-mail e digita o e-mail do usuário: gabrieltelees@gmail.com
+2026-04-26 20:55:51.727 INFO navegation - buscar_produtos_amazon: E-mail digitado com sucesso, clicando em continuar.
+2026-04-26 20:55:52.852 INFO navegation - buscar_produtos_amazon: Aguarda o carregamento do campo de senha e digita a senha do usuário.
+2026-04-26 20:55:52.915 INFO navegation - buscar_produtos_amazon: Senha digitada com sucesso, clicando em login.
+2026-04-26 20:55:54.169 INFO navegation - buscar_produtos_amazon: Amazon solicitou verificação humana. Resolva no navegador.
+2026-04-26 20:55:59.237 WARNING connectionpool - urlopen: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/5d52e8c94336632490e5961340ba9c42

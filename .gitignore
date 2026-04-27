@@ -1,0 +1,26 @@
+# --- Segurança (O MAIS IMPORTANTE) ---
+.env
+
+# --- Ambientes Virtuais ---
+venv/
+env/
+.venv/
+
+# --- Arquivos Gerados pelo Robô ---
+*.csv
+*.xlsx
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Selenium / Drivers ---
+*.exe
+chromedriver
+geckodriver
+
+# --- IDEs ---
+.vscode/
+.idea/
