@@ -22,3 +22,41 @@ RPA001_BuscaProdutosAmazon/
 ├── .gitignore          # Definições de exclusão do Git
 ├── main.py             # Orquestrador principal do robô
 └── requirements.txt    # Dependências do projeto
+
+
+🛠️ Pré-requisitos
+Python 3.10+
+
+Google Chrome instalado.
+
+App Password do Gmail (para envio de e-mails).
+
+⚙️ Instalação e Configuração
+Clonar o Repositório:
+
+Bash
+git clone [https://github.com/gteless/Testes_Tecnicos.git](https://github.com/gteless/Testes_Tecnicos.git)
+cd RPA001_BuscaProdutosAmazon
+Configurar Ambiente Virtual (venv):
+
+Bash
+python -m venv venv
+# Ativar no Windows:
+.\venv\Scripts\activate
+Instalar Dependências:
+
+Bash
+pip install -r requirements.txt
+Variáveis de Ambiente:
+Cria um ficheiro .env na raiz com o seguinte formato:
+
+Snippet de código
+AMAZON_EMAIL=teu_email@exemplo.com
+AMAZON_PASSWORD=tua_senha_amazon
+EMAIL_FROM=teu_gmail@gmail.com
+EMAIL_PASSWORD=tua_senha_de_app_16_digitos
+🚀 Como Executar
+Para iniciar a automação, corre o seguinte comando:
+
+Bash
+python main.py
