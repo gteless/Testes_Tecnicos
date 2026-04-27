@@ -35,14 +35,14 @@ App Password do Gmail (para envio de e-mails via SMTP).
 ## ⚙️ Instalação e Configuração
 Clonar o Repositório:
 
-Bash
+
 git clone [https://github.com/gteless/Testes_Tecnicos.git](https://github.com/gteless/Testes_Tecnicos.git)
 
 cd RPA001_BuscaProdutosAmazon
 
 Configurar Ambiente Virtual (venv):
 
-Bash
+
 
 python -m venv venv
 
