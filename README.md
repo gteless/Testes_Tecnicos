@@ -37,21 +37,30 @@ Clonar o Repositório:
 
 Bash
 git clone [https://github.com/gteless/Testes_Tecnicos.git](https://github.com/gteless/Testes_Tecnicos.git)
+
 cd RPA001_BuscaProdutosAmazon
+
 Configurar Ambiente Virtual (venv):
 
 Bash
+
 python -m venv venv
+
 # Ativar no Windows:
 .\venv\Scripts\activate
+
+
 Instalar Dependências:
 
 Bash
 pip install -r requirements.txt
+
 Variáveis de Ambiente:
+
 Crie um arquivo .env na raiz do projeto com o seguinte formato:
 
 Snippet de código
+
 AMAZON_EMAIL=seu_email@exemplo.com
 AMAZON_PASSWORD=sua_senha_amazon
 EMAIL_FROM=seu_gmail@gmail.com
