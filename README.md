@@ -59,9 +59,13 @@ Variáveis de Ambiente:
 Crie um arquivo .env na raiz do projeto com o seguinte formato:
 
 AMAZON_EMAIL=seu_email@exemplo.com
+
 AMAZON_PASSWORD=sua_senha_amazon
+
 EMAIL_FROM=seu_gmail@gmail.com
+
 EMAIL_PASSWORD=sua_senha_de_app_16_digitos
+
 
 
 ## 🚀 Como Executar
